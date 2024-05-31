@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+#logo{
+    padding: 10px 10px;
+}
+#logo img{
+    height: 43px;
+    width: 71px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul p{
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 3px;
+}
+nav ul p:hover{
+    border: 1px solid red;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+
+}
+nav ul li a span{
+    padding: 6px;
+}
+#nav2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#nav2 ul{
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+#nav2 ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+#nav2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+#srch hr{
+    position: relative;
+    left: 15rem;
+    width: 180px;
+}
+#srch p{
+    position: relative;
+    left: 14rem;
+    padding: 10px
+}
+#srch span{
+    position: relative;
+    top: 7px;
+    margin: 7px;
+}
+#nav3{
+    margin-top: 30px;
+}
+#nav3 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav3 ul li{
+    list-style: none;
+    justify-content: space-between;
+}
+#nav3 ul li a{
+text-decoration: none;
+color: black;
+}
+#bg1 {
+    text-align: center;
+    margin-top: 25px;
+  
+}
+#bg1 .bg2{
+    display: block;
+}
+#bg1 .bg2 img{
+    position: absolute;
+    height: 50rem;
+    width: 68%;
+    box-sizing: border-box;
+    left: 14%;
+    
+}
+
+#bg1 p{
+    position: relative;
+    top: 17rem;
+    left: 233px;
+    background-color: rgb(0 0 0 / 75%);
+    color: white;
+    width: 152px;
+    height: 75px;
+    padding: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+#bg1 p span{
+    position: relative;
+    top: 8px;
+}
+#bg1 h1{
+    position: relative;
+    top: 30rem;
+    margin: auto;
+    left: 0rem;
+    color: white;
+    font-size: 105px;
+}
+#bg1 .btn{
+    background-color: white;
+    padding: 8px 18px;
+    border: wheat;
+    font-weight: bold;
+    position: absolute;
+    top: 59rem;
+    left: 37rem;
+    color: rgba(0, 0, 0, 0.693);
+    font-size: medium;
+}
+#bg1 .btn:hover{
+    background-color:  rgb(206, 204, 202);
+}
+.main #bg3{
+    display: flex;
+    position: absolute;
+    top: 68rem;
+    left: 14%;
+}
+#bg3 img {
+    width: 28.7rem;
+    height: 50rem;
+}
+.main p{
+    position: absolute;
+    top: 101.5rem;
+    left: 199px;
+    background-color: rgb(0 0 0 / 75%);
+    color: white;
+    width: 152px;
+    height: 75px;
+    padding: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+.main p span{
+    position: relative;
+    top: 8px;
+}
+.main h1{
+    position: absolute;
+    top: 105rem;
+    margin: auto;
+    left: 20rem;
+    color: white;
+    font-size: 105px;
+}
+.main .btn{
+    background-color: white;
+    padding: 8px 18px;
+    border: wheat;
+    font-weight: bold;
+    position: absolute;
+    top: 113rem;
+    left: 37rem;
+    color: rgba(0, 0, 0, 0.693);
+    font-size: medium;
+}
+.main .btn:hover{
+    background-color:  rgb(206, 204, 202);
+}
+#nav4{
+    
+    position: absolute;
+    top: 119rem;
+    left: 11.5rem;
+}
+#nav4 ul{
+    margin: 25px -10px;
+    display: flex;
+}
+#nav4 ul li{
+    list-style: none;
+}
+#nav4 ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 16px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 18px;
+}
+#nav4 ul li a:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+#bg5{
+    position: absolute;
+    top: 125rem;
+    left: 11rem;
+    margin: auto;
+    width: 70%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,auto);
+}
+#bg5 .child img{
+    height: 400px;
+    width: 225px;
+}
+#bg5 span{
+    text-align: end;
+    padding-right: 18px;
+    margin-top: -46px;
+    cursor: pointer;
+}
+
+#bg5 .child2{
+    margin-top: -19px;
+}
+#bg5 .child2 p{
+    color: rgb(0 0 0 / 78%);
+}
+#bg5 .child3{
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    left: 27rem;
+    
+}
+#bg5 .child3 p{
+    height: 5px;
+    width: 5px;
+    margin: 0px 5px;
+    border-radius: 6px;
+    border: 1px solid black ;
+    
+}
+#bg5 .child3 p:hover{
+    border: 1px solid red;
+}
+#bg6{
+    position: absolute;
+    top: 156rem;
+    left: 11rem;
+}
+#bg6 .fit{
+    display: flex;
+}
+#bg6 .fit img{
+    width: 29.6rem;
+    height: 50rem;
+}
+#bg6 .bg-6{
+    position: absolute;
+    left: 25rem;
+    top: 25rem;
+    background-color: rgb(0 0 0 / 75%);
+    color: white;
+    width: 225px;
+    height: 75px;
+    padding: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+#bg6 .bg-6 span{
+    position: relative;
+    top: 8px;
+}
+#bg6 .bottom h1{
+    position: absolute;
+    top: 34rem;
+    left: 8rem;
+    color: white;
+    font-size: 105px;
+}
+#bg6 .bottom .btn{
+    background-color: white;
+    padding: 8px 18px;
+    border: wheat;
+    font-weight: bold;
+    position: absolute;
+    top: 42rem;
+    left: 26rem;
+    font-size: medium;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.693);
+}
+#bg6 .bottom .btn:hover{
+background-color:  rgb(206, 204, 202);
+}
+#bg7{
+    position: absolute;
+    top: 208rem;
+    left: 11rem;
+}
+#bg7 .fit1{
+    display: flex;
+}
+#bg7 .fit1 img{
+    width: 29.6rem;
+    height: 50rem;
+}
+#bg7 .bg-7{
+    position: absolute;
+    left: 25rem;
+    top: 25rem;
+    background-color: rgb(0 0 0 / 75%);
+    color: white;
+    width: 225px;
+    height: 75px;
+    padding: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+#bg7 .bg-7 span{
+position: relative;
+    top: 8px;
+}
+#bg7 .btm h1{
+    position: absolute;
+    top: 34rem;
+    left: 8rem;
+    color: white;
+    font-size: 105px;
+}
+#bg7 .btm .btn{
+    background-color: white;
+    padding: 8px 18px;
+    border: wheat;
+    font-weight: bold;
+    position: absolute;
+    top: 42rem;
+    left: 26rem;
+    font-size: medium;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.693);
+}
+#bg7 .btm .btn:hover{
+    background-color:rgb(206, 204, 202);
+}
+#bg8{
+    position: absolute;
+    top: 260rem;
+    left: 11rem;
+}
+#bg8 .bg-8 img{
+    width: 59rem;
+    height: 10rem;
+}
+#bg8 .para{
+    color: white;
+    position: absolute;
+    top: 2rem;
+    left: 18rem;
+    text-align: center;
+}
+#bg8 .btm{
+    display: flex;
+    position: absolute;
+    left: 21rem;
+    top: 6rem;
+}
+#bg8 .btn{
+    background-color: white;
+    padding: 8px 18px;
+    border: wheat;
+    font-weight: bold;
+    font-size: medium;
+    margin: 0px 7px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.693);
+}
+#bg8 .btn:hover{
+    background-color:rgb(206, 204, 202);
+}
+#bg9{
+    position: absolute;
+    top: 275rem;
+    left: 15rem;
+    
+}
+#bg9grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,auto);
+}
+#bg9 .child img{
+    height: 400px;
+    width: 225px;
+}
+#bg9grid .child2{
+    color: rgb(0 0 0 / 78%);
+}
+#bg9grid  span{
+    text-align: end;
+    padding-right: 18px;
+    margin-top: -46px;
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    top: 310rem;
+    left: 0;
+    width: 100%;
+    background-color: #E4E4E4;
+}
+#foot{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 60px;
+   
+}
+#foot .child{
+    margin-top: 50px;
+}
+#foot .child ul li{
+    list-style: none;
+    padding: 5px;
+}
+#foot .child ul li a{
+    color: black;
+    text-decoration: none;
+}
+#s-media .social{
+    position: relative;
+    left: 24rem;
+    margin-top: -35px;
+}
+#s-media .social img{
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+}
+footer .bottom{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+footer .logo img{
+    height: 30px;
+}
+footer .logo{
+    text-align: center;
+    margin-top: 35px;
+}
+footer .branch{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+footer .branch p:hover{
+    color: rgb(0 0 0 / 78%);
+}
+
+    
+.div-flex-parent{
+    display:none;
+    gap:1rem;
+    justify-content: center;
+
+}
+.div-flex-parent .div1 div{
+    margin: 20px;
+}
+.div-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start;
+}
+.div-flex-parent .div2 div
+{
+    margin: 20px;
+   
+}
+.div-flex-parent .div2 div p{
+    margin-top: 5px;
+    text-align: left;
+}
+
+.div-flex-parent .div3 div
+{
+    margin: 20px;
+   
+}
+.div-flex-parent .div3 p{
+    margin-top: 5px;
+    text-align: left;
+}
+.div2-flex-parent{
+    display: none;
+    gap:1rem;
+    justify-content: center;
+}
+.div2-flex-parent .div1 div{
+    margin: 20px;
+}
+.div2-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start
+}
+.div2-flex-parent .div2 div{
+    margin: 20px;
+}
+.div2-flex-parent .div2 div p{
+    margin-top: 5px;
+}
+.div2-flex-parent .div3 div{
+    margin: 20px;
+}
+.div2-flex-parent .div3 div p{
+    margin-top: 5px;
+}
+.div2-flex-parent .div4 div{
+    margin: 20px;
+}
+.div2-flex-parent .div4 div p{
+    margin-top: 5px;
+}
+.div3-flex-parent{
+    display: none;
+    gap:1rem;
+    justify-content: center;
+}
+.div3-flex-parent .div1 div{
+    margin: 20px;
+}
+.div3-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start
+}
+.div3-flex-parent .div2 div{
+    margin: 20px;
+}
+.div3-flex-parent .div2 div p{
+    margin-top: 5px;
+}
+.div3-flex-parent .div3 div{
+    margin: 20px;
+}
+.div3-flex-parent .div3 div p{
+    margin-top: 5px;
+}
+.div3-flex-parent .div4 div{
+    margin: 20px;
+}
+.div3-flex-parent .div4 div p{
+    margin-top: 5px;
+}
+.div4-flex-parent{
+    display: none;
+    gap:1rem;
+    justify-content: center;
+}
+.div4-flex-parent .div1 div{
+    margin: 20px;
+}
+.div4-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start
+}
+.div4-flex-parent .div2 div{
+    margin: 20px;
+}
+.div4-flex-parent .div2 div p{
+    margin-top: 5px;
+}
+.div4-flex-parent .div3 div{
+    margin: 20px;
+}
+.div4-flex-parent .div3 div p{
+    margin-top: 5px;
+}
+.div4-flex-parent .div4 div{
+    margin: 20px;
+}
+.div4-flex-parent .div4 div p{
+    margin-top: 5px;
+}
+.div5-flex-parent{
+    display: none;
+    gap:1rem;
+    justify-content: center;
+}
+.div5-flex-parent .div1 div{
+    margin: 20px;
+}
+.div5-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start
+}
+.div5-flex-parent .div2 div{
+    margin: 20px;
+}
+.div5-flex-parent .div2 div p{
+    margin-top: 5px;
+}
+.div5-flex-parent .div3 div{
+    margin: 20px;
+}
+.div5-flex-parent .div3 div p{
+    margin-top: 5px;
+}
+.div5-flex-parent .div4 div{
+    margin: 20px;
+}
+.div5-flex-parent .div4 div p{
+    margin-top: 5px;
+}
+.div6-flex-parent{
+    display: none;
+    gap:1rem;
+    justify-content: center;
+}
+.div6-flex-parent .div1 div{
+    margin: 20px;
+}
+.div6-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start
+}
+.div6-flex-parent .div2 div{
+    margin: 20px;
+}
+.div6-flex-parent .div2 div p{
+    margin-top: 5px;
+}
+.div6-flex-parent .div3 div{
+    margin: 20px;
+}
+.div6-flex-parent .div3 div p{
+    margin-top: 5px;
+}
+.div6-flex-parent .div4 div{
+    margin: 20px;
+}
+.div6-flex-parent .div4 div p{
+    margin-top: 5px;
+}
+.div7-flex-parent{
+    display: none;
+    gap:1rem;
+    justify-content: center;
+}
+.div7-flex-parent .div1 div{
+    margin: 20px;
+}
+.div7-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start
+}
+.div7-flex-parent .div2 div{
+    margin: 20px;
+}
+.div7-flex-parent .div2 div p{
+    margin-top: 5px;
+}
+.div7-flex-parent .div3 div{
+    margin: 20px;
+}
+.div7-flex-parent .div3 div p{
+    margin-top: 5px;
+}
+.div7-flex-parent .div4 div{
+    margin: 20px;
+}
+.div7-flex-parent .div4 div p{
+    margin-top: 5px;
+}
+.div8-flex-parent{
+    display: none;
+    gap:1rem;
+    justify-content: center;
+}
+.div8-flex-parent .div1 div{
+    margin: 20px;
+}
+.div8-flex-parent .div1 div p{
+    margin-top: 5px;
+    text-align: start
+}
+.div8-flex-parent .div2 div{
+    margin: 20px;
+}
+.div8-flex-parent .div2 div p{
+    margin-top: 5px;
+}
+.div8-flex-parent .div3 div{
+    margin: 20px;
+}
+.div8-flex-parent .div3 div p{
+    margin-top: 5px;
+}
+.div8-flex-parent .div4 div{
+    margin: 20px;
+}
+.div8-flex-parent .div4 div p{
+    margin-top: 5px;
+}
+
+
